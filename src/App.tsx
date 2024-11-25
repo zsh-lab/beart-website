@@ -69,7 +69,7 @@ const HeroSection: React.FC = () => (
 const ProjectsSection: React.FC = () => (
   <section style={{ padding: '0rem 2rem' }}>
     <h2 style={{ fontSize: '4rem', textAlign: 'center' }}>our products</h2>
-    <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '1rem' }}><img src="/assets/face_swap_logo.png" alt="AI App" style={{ width: '150px', height: '150px', borderRadius: '20px' }} /></div>
+    <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '1rem' }}><img src="/image/face_swap_logo.png" alt="AI App" style={{ width: '150px', height: '150px', borderRadius: '20px' }} /></div>
     <h3 style={{ fontSize: '2rem', textAlign: 'center' }}>AI Face Swap: Swap faces, unlock fun!</h3>
     <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'space-around', gap: '3rem' }}>
       <img src="/assets/iPhone11.png" alt="Project 1" style={{ width: '390px', height: '844px', borderRadius: '10px', objectFit: 'fill' }} />
