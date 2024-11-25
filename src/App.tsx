@@ -193,7 +193,6 @@ const App: React.FC = () => {
         <HeroSection />
         <ProjectsSection />
         <Separator />
-        {/* <HelpSection /> */}
         <AboutUsSection />
         <ContactSection />
       </main>
