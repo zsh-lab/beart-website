@@ -92,47 +92,6 @@ const Separator: React.FC = () => (
   <div style={{ width: '100%', height: '586px', background: 'url(/assets/separate-div.svg) no-repeat center center', backgroundSize: 'cover' }}></div>
 );
 
-const HelpSection: React.FC = () => (
-  <section style={{ padding: '4rem 2rem', position: 'relative', overflow: 'hidden' }}>
-    <div style={{
-      position: 'absolute',
-      left: '-25%',
-      bottom: '-25%',
-      width: '50%',
-      height: '50%',
-      background: 'linear-gradient(45deg, #00ff00, #0000ff)',
-      borderRadius: '50%',
-      filter: 'blur(100px)',
-      opacity: 0.5,
-    }}></div>
-    <h2 style={{ fontSize: '4rem', marginBottom: '2rem', width: '100%', textAlign: 'center' }}>How we can help grow</h2>
-    <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'space-between' }}>
-      <ul style={{ listStyle: 'none', padding: 0, fontSize: '1.5rem' }}>
-        <li style={{ marginBottom: '1rem' }}>Product clarity</li>
-        <li style={{ marginBottom: '1rem' }}>UX/UI design</li>
-        <li style={{ marginBottom: '1rem' }}>Maintain process</li>
-      </ul>
-      <img src="/assets/help01.jpg" alt="Help Section" />
-      <ul style={{ listStyle: 'none', padding: 0, fontSize: '1.5rem', textAlign: 'right' }}>
-        <li style={{ marginBottom: '1rem' }}>product goal&vision  </li>
-        <li style={{ marginBottom: '1rem' }}>brand voice.</li>
-        <li style={{ marginBottom: '1rem' }}>product positioning </li>
-      </ul>
-    </div>
-    <div style={{
-      position: 'absolute',
-      right: '-25%',
-      bottom: '-25%',
-      width: '50%',
-      height: '50%',
-      background: 'linear-gradient(45deg, #00ff00, #0000ff)',
-      borderRadius: '50%',
-      filter: 'blur(100px)',
-      opacity: 0.5,
-    }}></div>
-  </section>
-);
-
 const AboutUsSection: React.FC = () => (
   <section style={{ padding: '4rem 2rem' }} id="about-section">
     <h2 style={{ fontSize: '4rem', marginBottom: '2rem', width: '100%', textAlign: 'center' }}>About Us</h2>
