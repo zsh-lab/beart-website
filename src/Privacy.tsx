@@ -5,111 +5,256 @@ export const Privacy: React.FC = () => {
         <div style={{ padding: '2rem', overflowY: 'scroll', height: '100vh', width: '100wh', display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
             <h1 style={{ fontSize: '2rem', fontWeight: 'bold', textAlign: 'center', marginBottom: '1rem' }}>Privacy</h1>
             <div style={{ maxWidth: '100%', textAlign: 'left' }}>
-                <h2>User License Agreement</h2>
+                <h1>
+                    Face Swap Privacy Policy
+                </h1>
                 <p>
-                    This User License Agreement (hereinafter referred to as the “Agreement”) and its terms constitute an agreement between you and this software, establishing the rights and obligations regarding the downloading, installation, and use of this software (hereinafter referred to as the “Software”).
+                    We take your privacy very seriously!
                 </p>
                 <p>
-                    Please read carefully and choose whether to accept or reject this Agreement (minors should read under the supervision of a legal guardian).
+                    Face Swap (hereinafter referred to as Face) is committed to protecting the privacy of our users ("users" or
+                    "you").
+                    This Privacy Policy ("this Policy") aims to explain to you how we collect, store, use, manage and protect your
+                    user
+                    information (including personal information) when using our website and our services.
                 </p>
                 <p>
-                    If you disagree with any terms of this Agreement or with future amendments and supplements, you may choose not to use the service. Your registration, login, and use will be deemed as acceptance of the Agreement, and you agree to be bound by all terms of the Agreement.
+                    Please note that the scope of this policy is limited to the user information (including personal information)
+                    submitted to or collected by Face when you use our website and our services; "personal information" under this
+                    policy refers to the information itself or the individual that Face can access Other information that, if
+                    contacted,
+                    can identify a specific individual, including your name, address, telephone number and email address.
                 </p>
                 <p>
-                    This Agreement may be updated at any time, and the updated terms will replace the previous version upon publication without separate notification. If you do not accept the revised terms after the Agreement is modified, please stop using the services provided immediately. Continued use of the services will be regarded as acceptance of the modified terms.
+                    Using our website and our services means that you agree to this policy and agree to the collection, processing,
+                    disclosure and sharing of your user information (including your personal information) in the manner specified in
+                    this policy. If you do not agree to any terms of this policy and future revisions, please do not use our website
+                    and
+                    our services.
                 </p>
+                <h2>
+                    1. What information we collect
+                </h2>
+                <p>
+                    In order to provide you with our website and our services, we will collect your personal information and user
+                    information in accordance with this policy within the scope permitted by law and only when you browse the
+                    website,
+                    use certain functions or services. If you do not provide this information, we may not be able to provide our
+                    products or services to you.
+                </p>
+                <h3>
+                    Information you provide to us
+                </h3>
+                <p>
+                    <p>
+                        Device Information
+                    </p>
+                    When you use our services on a mobile device, we collect information related to your device. For example,
+                    International Mobile Equipment Identity (“IMEI”), Advertising Identifier (“IDFA” and “IDFV”), Integrated Circuit
+                    Card Identity (“ICCID”) and Media Access Control (“MAC”) addresses, device model and device resolution, so that we
+                    can count the number of devices using our products and services and perform device model data analysis and graphic
+                    adaptation analysis.
+                </p>
+                <p>
+                    <p>
+                        Internet Information
+                    </p>
+                    When you use our website or our services while connected to the Internet, we collect the name of the operator and
+                    the type of network you use for the purpose of understanding the user's operator and network distribution. In
+                    addition, we also collect Enter the WIFI name and WIFI access time to understand the user scenario of your service.
+                </p>
+                <p>
+                    <p>
+                        log information
+                    </p>
+                    When you use some of our services, including participating in, generating, and browsing content related to our
+                    services, we will automatically collect certain relevant log information in the Face application product, including:
+                    (1) about you Details of usage time and usage frequency; (2) device statistics, critical operation paths, error
+                    logs, crash records, language and time zone, etc. These log information can help us better understand and improve
+                    our services, and are not used to identify any specific individual.
+                </p>
+                <p>
+                    <p>
+                        image information
+                    </p>
+                    When you choose to use the picture function in our service, your picture will not be uploaded in any form, but will
+                    only be stored locally. Your image data will not be disclosed to any third parties.
+                </p>
+                <p>
+                    <p>
+                        face information
+                    </p>
+                    When you use the face-swapping function, we will only collect your face data to obtain the location information of
+                    facial features for subsequent face replacement. Your original avatar photo and face-changing results will only be
+                    stored on your local device.
+                </p>
+                <p>
+                    <p>
+                        Information Collected by Third Party Services
+                    </p>
+                    The Services we provide may include third-party tracking tools belonging to our service providers. This third
+                    party may use cookies, APIs (application programming interfaces) and SDKs (software program development kits) in
+                    the services we provide, thereby collecting and analyzing user information on our behalf. Third parties may have
+                    access to information such as your device identifier, MAC (Media Access Control) address, IMEI (International
+                    Mobile Equipment Identity), region (specific location in a given language), geolocation information, and IP address
+                    for the purpose of In Realization provides services under their respective privacy policies. Our Privacy Policy
+                    does not cover the use of third-party tracking tools. We do not have access to or control over these third
+                    parties.
+                </p>
+                <p>
+                    <p>
+                        other information
+                    </p>
+                    We may also collect other types of information that are not personally associated. For example, operating system
+                    type and version number to understand system upgrades, system language for language adaptation, application list to
+                    understand user preferences, etc. The purpose of collecting this information is to improve our services to you.
+                </p>
+                <h3>
+                    2. How we use information
+                </h3>
+                <p>
+                    The purpose of collecting user information and personal information is to provide you with our products and
+                    services
+                    and to ensure that we comply with applicable laws. Based on the section "What information do we collect", we use
+                    your user information and personal information for the following purposes:
+                </p>
+                <p>
+                    (1) Product service. Provide, process, maintain, improve, develop our website and/or provide our services to
+                    you,
+                    including customer support, and other services provided through the device or website.
+                </p>
+                <p>
+                    (2) Statistical analysis. Analyze and develop statistical information related to the use of our products and our
+                    services to better improve our products and services.
+                </p>
+                <p>
+                    (3) Provide location-based services. When using our services, we or third-party service providers may use
+                    location
+                    information to provide you with the correct version of the service and an accurate location to obtain the best
+                    possible user experience.
+                </p>
+                <p>
+                    (4) Improve user experience. Certain opt-in features, such as the User Experience Program, allow Face to analyze
+                    data about how users use our products and services in order to improve the user experience.
+                </p>
+                <p>
+                    (5) Provide push service. Face account and device information may be used to provide Face push services to
+                    evaluate
+                    advertising performance and notifications of software updates or new product releases. You can turn off this
+                    feature
+                    at any time by changing your preferences under Settings.
+                </p>
+                <p>
+                    (6) Collect user feedback. Your feedback is extremely valuable to help Face improve the service. In order to
+                    track
+                    your feedback, Face may use the personal information you provide to contact you and keep records.
+                </p>
+                <p>
+                    (7) Others. Store and maintain information about you for the purpose of operating our business or complying with
+                    legal obligations.
+                </p>
+                <h3>
+                    3. How we store your information?
+                </h3>
+                <p>
+                    Your photos / videos for processing (e.g. face swap) are stored on our server until you finish the editing
+                    session,
+                    but not longer than within 24 hours after the finishing of the editing session. For the rest of the time your
+                    photos
+                    used in our application are stored locally on your mobile device and may be removed any time by either deleting
+                    these photos from your mobile device's file system directly or by deleting our application;
+                </p>
+                <h3>
+                    4. Information Sharing and Disclosure
+                </h3>
+                <p>
+                    We do not sell any personal information to third parties. We have no right to share and/or disclose all or part
+                    of
+                    your personal information to third parties unless the following circumstances occur:
+                </p>
+                <p>
+                    (1) To protect the personal or property safety of others;
+                </p>
+                <p>
+                    (2) To prevent or resolve online fraud;
+                </p>
+                <p>
+                    (3) Safeguard the legal rights and interests of Face Company;
+                </p>
+                <p>
+                    (4) To achieve the purpose stated in the section "What information do we collect", the prerequisite is that the
+                    recipient of such disclosure should be equally bound by this policy and can provide adequate protection of
+                    information;
+                </p>
+                <p>
+                    (5) According to the provisions of laws and regulations, or comply with the requirements of government
+                    departments
+                    and judicial organs; usually the foregoing requirements are to protect network security and protect the rights,
+                    property and safety of us, our users and third parties.
+                </p>
+                <h3>
+                    5. Information Security
+                </h3>
+                <p>
+                    We use reasonable measures to prevent the loss, misuse, unauthorized access or disclosure of information. For
+                    example, in some services, we will use encryption technology (such as SSL) to protect your personal information.
+                    But
+                    please understand (in the Internet industry) that even if we do our best to strengthen security measures, it is
+                    impossible to guarantee 100% security of information all the time. You need to understand that the system and
+                    communication network you use to access our services may have problems due to factors beyond our control.
+                </p>
+                <h3>
+                    6. Information Access and Control
+                </h3>
+                <p>
+                    We will take all reasonable and appropriate technical means to ensure that you can access, update and correct
+                    your
+                    personal information or other personal information provided when using our services. When accessing, updating,
+                    correcting and deleting the aforementioned personal information, we may require you to perform identity
+                    verification
+                    to ensure the security of your account.
+                </p>
+                <h3>
+                    7. Data Retention and Deletion
+                </h3>
+                <p>
+                    Subject to the requirements of laws and regulations, we will retain your information (including personal
+                    information) in accordance with the "How We Use Information" section or within the time frame for providing
+                    services
+                    to you. If you wish to withdraw your consent to the collection, use and disclosure of your personal information
+                    collected by us or to delete your personal information, please send an email to <a href="mailto:jim507735@gmail.com">jim507735@gmail.com</a>
+                </p>
+                <h3>
+                    8. Applicable law
+                </h3>
+                <p>
 
-                <h2>Intellectual Property Statement</h2>
-                <p>
-                    All intellectual property rights of this software and all associated content, including but not limited to text, icons, graphics, images, charts, color schemes, interface design, layout structure, relevant data, additional programs, printed materials, or electronic documents, are owned by us and are protected by copyright law, international copyright treaties, and other intellectual property laws and regulations.
+                    This policy, including but not limited to the formulation, effectiveness, interpretation, performance and
+                    dispute
+                    resolution of this policy, shall be governed by the laws of the People's Republic of China (excluding the laws
+                    of
+                    the Hong Kong Special Administrative Region and the Macao Special Administrative Region). We do not represent or
+                    warrant that this Policy complies with the privacy laws of any jurisdiction and, therefore, you should not
+                    interpret
+                    this Policy in accordance with such laws.
                 </p>
+                <h3>
+                    9. Updates to this policy
+                </h3>
                 <p>
-                    Without written consent, users are prohibited from using, transferring, or licensing any third party to use or transfer the above intellectual property rights for any commercial or non-commercial purpose. We reserve the right to pursue legal responsibility against those who engage in such unauthorized conduct.
+                    You agree that we will update this policy accordingly in accordance with laws and regulations or business
+                    decisions
+                    of Face, and you are willing to be bound by the revised policy. If there are major changes to this policy, we
+                    will
+                    make announcements on the website or push information when necessary.
                 </p>
-
-                <h2>Scope of Authorization</h2>
+                <h3>
+                    10. Contact Us
+                </h3>
                 <p>
-                    The Software is free of charge, and users may install, use, display, and run the Software on end devices for non-commercial purposes. Users may copy, distribute, and share the Software for non-commercial purposes and without restrictions on quantity. Each copy, distribution, and sharing must be complete and authentic, including all relevant software, electronic documentation, copyright, trademark, and this Agreement.
-                </p>
-
-                <h2>Retained Rights</h2>
-                <p>
-                    Any rights not expressly authorized here remain reserved by us, and users must obtain written consent for any other usage.
-                </p>
-
-                <h2>Privacy Protection</h2>
-                <p>
-                    We fully understand and respect users’ reasonable expectations of privacy protection and commit to using reasonable means to protect users’ personal privacy in accordance with the law.
-                </p>
-                <p>
-                    Except as required by law or authorized governmental agencies, we will not disclose or share users’ personal information to any third party without user consent. Users who agree to this Agreement or have otherwise agreed with us or our partners to disclose or use personal information accept any resulting risks. We are not liable for these risks.
-                </p>
-                <p>
-                    Users agree that the Privacy Policy also governs their use of the provided services.
-                </p>
-
-                <h2>User Usage</h2>
-                <p>
-                    To prevent data loss on user terminals and to better serve users, we offer data backup services to registered users. With authorization, the data stored in the registered user’s terminal database will be uploaded to the server, and recovery services are provided to restore data to the user’s terminal device.
-                </p>
-                <p>
-                    Users are responsible for the authenticity, legality, harmlessness, and effectiveness of information transmitted and shall bear all legal responsibility for related issues. We are not responsible for any content recorded by users or transmitted through the service, as it does not reflect our views or policies.
-                </p>
-                <p>
-                    Users may not use the Software to produce, upload, copy, or transmit any content that:
-                </p>
-                <ul>
-                    <li>Opposes the fundamental principles of the Constitution;</li>
-                    <li>Endangers national security, leaks state secrets, subverts state power, or undermines national unity;</li>
-                    <li>Damages national honor and interests;</li>
-                    <li>Incites ethnic hatred or ethnic discrimination, or undermines national unity;</li>
-                    <li>Undermines state religious policies or promotes cults and feudal superstition;</li>
-                    <li>Spreads rumors, disrupts social order, or undermines social stability;</li>
-                    <li>Spreads pornography, gambling, violence, murder, terror, or incites crime;</li>
-                    <li>Insults or defames others or infringes upon others’ lawful rights;</li>
-                    <li>Is prohibited by other laws or administrative regulations.</li>
-                </ul>
-                <p>
-                    The services we provide may contain advertisements, and users agree to see advertisements from us, third-party suppliers, or partners during use. Any disputes arising between users and third parties regarding services or products must be resolved by users and third parties. We bear no responsibility.
-                </p>
-                <p>
-                    We reserve the right to change, suspend, restrict, terminate, or revoke any part or all of the services on our servers at any time without prior notice due to business needs.
-                </p>
-
-                <h2>User Rights and Obligations</h2>
-                <p>
-                    Users have the right to modify or delete data, information, and transmitted content on their terminals. However, deleting such data may also result in the deletion of data uploaded to the server by registered users.
-                </p>
-                <p>
-                    Users must comply with all terms of this Agreement and properly use the services provided. If users violate any terms of this Agreement, we reserve the right to discontinue service to those users and retain the right to retrieve accounts at any time.
-                </p>
-
-                <h2>Legal Responsibility and Disclaimer</h2>
-                <p>
-                    Users bear sole responsibility for any third-party claims resulting from their violation of this Agreement or relevant service terms.
-                </p>
-                <p>
-                    We are not responsible for any losses users suffer due to third parties (e.g., telecommunications departments) or due to communication line failures, technical issues, network or computer malfunctions, system instability, or other force majeure events.
-                </p>
-                <p>
-                    If a technical fault or other force majeure event impacts the normal operation of the services, we commit to cooperating with relevant parties to repair it promptly.
-                </p>
-                <p>
-                    Users understand that, despite our ongoing efforts to provide stable, secure, and convenient software services, we do not assume liability for any losses users incur due to software bugs, user configuration errors, or other factors.
-                </p>
-
-                <h2>Other Terms</h2>
-                <p>
-                    We remind users to carefully read any disclaimers and clauses that may increase user obligations in this Agreement, and to consider risks independently.
-                </p>
-                <p>
-                    Any clause in this Agreement that is partially or entirely invalid does not affect the validity of other clauses.
-                </p>
-                <p>
-                    Any dispute between users and us should first be resolved amicably. If agreement cannot be reached, either party has the right to submit the dispute to the court with jurisdiction in our location to resolve it according to Chinese law.
-                </p>
-                <p>
-                    We reserve the right of final interpretation and modification of this Agreement.
+                    If you have any questions about our privacy practices or this Privacy Notice, or to exercise your rights as detailed in this Privacy Notice,
+                    please contact us at:
+                    <a href="mailto:jim507735@gmail.com"> jim507735@gmail.com</a>
                 </p>
             </div>
         </div>
