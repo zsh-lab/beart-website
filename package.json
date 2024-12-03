@@ -7,7 +7,8 @@
     "dev": "vite",
     "build": "tsc -b && vite build && node pre-render.js",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "postinstall": "apt-get update && apt-get install -y libnss3 libx11-xcb1 libxcomposite1 libxrandr2 libxi6 libxdamage1 libgbm1 libgtk-3-0 libasound2"
   },
   "dependencies": {
     "react": "^18.3.1",
