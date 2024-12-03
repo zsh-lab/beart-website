@@ -222,7 +222,7 @@ export const Privacy: React.FC = () => {
                     information) in accordance with the "How We Use Information" section or within the time frame for providing
                     services
                     to you. If you wish to withdraw your consent to the collection, use and disclosure of your personal information
-                    collected by us or to delete your personal information, please send an email to <a href="mailto:jim507735@gmail.com">jim507735@gmail.com</a>
+                    collected by us or to delete your personal information, please send an email to <a href="mailto:support@beart.ai">support@beart.ai</a>
                 </p>
                 <h3>
                     8. Applicable law
@@ -254,7 +254,7 @@ export const Privacy: React.FC = () => {
                 <p>
                     If you have any questions about our privacy practices or this Privacy Notice, or to exercise your rights as detailed in this Privacy Notice,
                     please contact us at:
-                    <a href="mailto:jim507735@gmail.com"> jim507735@gmail.com</a>
+                    <a href="mailto:support@beart.ai"> support@beart.ai</a>
                 </p>
             </div>
         </div>

@@ -1,108 +1,120 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import './App.css';
 
 const Header: React.FC = () => (
   <header style={{
     display: 'flex',
     justifyContent: 'space-between',
     alignItems: 'center',
-    padding: '1rem 2rem',
+    padding: '1rem',
     position: 'fixed',
     top: 0,
     left: 0,
     right: 0,
     zIndex: 10,
-    backgroundColor: 'rgba(0, 0, 0, 0.8)', // Adding a background color to ensure readability
-    backdropFilter: 'blur(10px)', // Adding a blur effect for better aesthetics
+    backgroundColor: 'rgba(0, 0, 0, 0.8)',
+    backdropFilter: 'blur(10px)',
   }}>
     <div style={{ fontSize: '1.5rem', fontWeight: 'bold' }}>
-      <img src="/assets/logo.webp" alt="Logo" style={{ width: '50px', height: '50px', borderRadius: '50%' }} />
+      <img src="/assets/logo.webp" alt="Logo" />
     </div>
     <nav>
-      <ul style={{ display: 'flex', gap: '1rem', listStyle: 'none' }}>
-        <li>
-          <a href="#hero-section" style={{ color: 'white', textDecoration: 'none', scrollBehavior: 'smooth' }}>Home</a>
-        </li>
-        <li>
-          <a href="#about-section" style={{ color: 'white', textDecoration: 'none', scrollBehavior: 'smooth' }}>About</a>
-        </li>
-        <li>
-          <a href="#contact-section" style={{ color: 'white', textDecoration: 'none', scrollBehavior: 'smooth' }}>Contact</a>
-        </li>
-        <li>
-          <Link to="/privacy">Privacy</Link>
-        </li>
+      <ul style={{ display: 'flex', gap: '1rem', listStyle: 'none', padding: 0, margin: 0 }}>
+        {['Home', 'About', 'Contact'].map((item) => (
+          <li key={item}>
+            <a href={`#${item.toLowerCase()}-section`} style={{ color: 'white', textDecoration: 'none' }}>{item}</a>
+          </li>
+        ))}
       </ul>
+
     </nav>
   </header>
 );
 
 const HeroSection: React.FC = () => (
-  <section style={{
-    display: 'flex',
-    flexWrap: 'wrap',
-    justifyContent: 'space-between',
-    marginTop: '100px',
-  }} id="hero-section">
-
-    <h1 style={{
-      display: 'flex',
-      flexDirection: 'column',
-      justifyContent: 'center',
-      alignItems: 'flex-start',
-      textAlign: 'justify',
-      height: '100%',
-      fontSize: '4rem',
-      marginBottom: '1rem',
-      zIndex: 1,
-      backgroundColor: 'rgba(0, 0, 0, 0.1)',
-      padding: '2rem 2rem',
-    }}>Enjoy instant
-      < br /> face swaps
-      < p style={{ fontSize: '1.5rem', marginBottom: '2rem', color: '#888', zIndex: 1 }}> Create amusing videos and photos  <br /> using our advanced AI face swap tool
-      </p >
-    </h1 >
-    <img src="/assets/swap_face.webp" alt="AI App" style={{ width: '100', height: '254', }} />
-  </section >
+  <section className="hero-section" id="home-section">
+    <div className="hero-content">
+      <h1>Enjoy instant face swaps</h1>
+      <p>Create amusing videos and photos using our advanced AI face swap tool</p>
+    </div>
+    <img src="/assets/swap_face.webp" alt="AI App" />
+  </section>
 );
 
-const ProjectsSection: React.FC = () => (
-  <section style={{ padding: '0rem 2rem' }}>
-    <h2 style={{ fontSize: '4rem', textAlign: 'center' }}>our products</h2>
-    <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '1rem' }}><img src="/assets/face_swap_logo.png" alt="AI App" style={{ width: '150px', height: '150px', borderRadius: '20px' }} /></div>
-    <h3 style={{ fontSize: '2rem', textAlign: 'center' }}>AI Face Swap: Swap faces, unlock fun!</h3>
-    <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'space-around', gap: '3rem' }}>
-      <img src="/assets/iPhone11.png" alt="Project 1" style={{ width: '390px', height: '844px', borderRadius: '10px', objectFit: 'fill' }} />
-      <img src="/assets/iPhone22.png" alt="Project 1" style={{ width: '390px', height: '844px', borderRadius: '10px', objectFit: 'fill' }} />
-      <img src="/assets/iPhone33.png" alt="Project 1" style={{ width: '390px', height: '844px', borderRadius: '10px', objectFit: 'fill' }} />
-      <img src="/assets/iPhone44.png" alt="Project 1" style={{ width: '390px', height: '844px', borderRadius: '10px', objectFit: 'fill' }} />
+const ProjectsSection1: React.FC = () => (
+  <section style={{ padding: '2rem 1rem', textAlign: 'center' }} >
+    <h2>Our Products</h2>
+    <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '1rem' }}>
+      <img className="project-logo" src="/assets/face_swap_logo.png" alt="AI App" />
+      <h3 style={{ fontSize: '1.5rem' }}>AI Face Swap: Swap faces, unlock fun!</h3>
+    </div>
+    <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center', gap: '2rem' }}>
+      {[1, 2, 3, 4].map((index) => (
+        <img key={index} src={`/assets/iPhone${index}${index}.png`} alt={`Project ${index}`} style={{
+          width: 'calc(100% - 4rem)',
+          maxWidth: '360px',
+          height: 'auto',
+          borderRadius: '10px',
+          objectFit: 'cover',
+        }} />
+      ))}
     </div>
     <div style={{ display: 'flex', justifyContent: 'center', gap: '1rem', marginTop: '2rem' }}>
       <a href="https://apps.apple.com/app/id6737044577">
-        <img src="/assets/appstore.svg" alt="App Store" />
+        <img src="/assets/appstore.svg" alt="App Store" style={{ width: '150px', height: 'auto' }} />
       </a>
       <a href="https://apps.apple.com/app/id6737044577">
-        <img src="/assets/googleplay.svg" alt="Google Play" />
+        <img src="/assets/googleplay.svg" alt="Google Play" style={{ width: '150px', height: 'auto' }} />
+      </a>
+    </div>
+  </section>
+);
+
+const ProjectsSection2: React.FC = () => (
+  <section style={{ padding: '2rem 1rem', textAlign: 'center' }} >
+    <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '1rem' }}>
+      <img className="project-logo" src="/assets/meme_maker_logo.png" alt="AI App" />
+      <h3 style={{ fontSize: '1.5rem' }}>Meme Maker: Unleash Your Creativity, One Meme at a Time!</h3>
+    </div>
+    <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center', gap: '2rem' }}>
+      {[1, 2, 3].map((index) => (
+        <img key={index} src={`/assets/mememaker${index}.png`} alt={`Project ${index}`} style={{
+          width: 'calc(100% - 4rem)',
+          maxWidth: '360px',
+          height: 'auto',
+          borderRadius: '10px',
+          objectFit: 'cover',
+        }} />
+      ))}
+    </div>
+    <div style={{ display: 'flex', justifyContent: 'center', gap: '1rem', marginTop: '2rem' }}>
+      <a href="https://apps.apple.com/app/id6677020081">
+        <img src="/assets/appstore.svg" alt="App Store" style={{ width: '150px', height: 'auto' }} />
+      </a>
+      <a href="https://apps.apple.com/app/id6677020081">
+        <img src="/assets/googleplay.svg" alt="Google Play" style={{ width: '150px', height: 'auto' }} />
       </a>
     </div>
   </section>
 );
 
 const Separator: React.FC = () => (
-  <div style={{ width: '100%', height: '586px', background: 'url(/assets/separate-div.svg) no-repeat center center', backgroundSize: 'cover' }}></div>
+  <div style={{ width: '100%', height: '50vw', maxHeight: '586px', background: 'url(/assets/separate-div.svg) no-repeat center center', backgroundSize: 'cover' }}></div>
 );
 
+
 const AboutUsSection: React.FC = () => (
-  <section style={{ padding: '4rem 2rem' }} id="about-section">
-    <h2 style={{ fontSize: '4rem', marginBottom: '2rem', width: '100%', textAlign: 'center' }}>About Us</h2>
-    <p style={{ marginBottom: '2rem', color: '#888', fontSize: '1.5rem' }}>
-      Team of product and brand designers that are really passionate about technology and good design. We are not just UI freaks! We advocate users for better product experience and common sense.
+  <section style={{ padding: '2rem 1rem' }} id="about-section">
+    <h2 >About Us</h2>
+    <p >
+      Team of product and brand designers passionate about technology and good design. We advocate for better product experience and common sense.
     </p>
-    <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center', gap: '8rem' }}>
+    <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center', gap: '4rem' }}>
       {['manson.jpg', 'brony.jpeg', 'lesly.jpg', 'eric.jpeg'].map((i) => (
         <div key={i} style={{ textAlign: 'center' }}>
-          <img src={`/assets/${i}`} alt={`Team Member ${i}`} style={{ width: '150px', height: '150px', borderRadius: '50%', marginBottom: '1rem' }} />
-          <h3 style={{ fontSize: '1.2rem' }}>{i.split('.')[0]}</h3>
+          <img className="team-member-icon" src={`/assets/${i}`} alt={`Team Member ${i}`} />
+          <h3 style={{ fontSize: '1rem' }}>{i.split('.')[0]}</h3>
         </div>
       ))}
     </div>
@@ -110,29 +122,35 @@ const AboutUsSection: React.FC = () => (
 );
 
 const ContactSection: React.FC = () => (
-  <section style={{ padding: '4rem 2rem' }} id="contact-section">
-    <h2 style={{ fontSize: '4rem', marginBottom: '2rem', width: '100%', textAlign: 'center' }}>Contact Us</h2>
-    <div
-      style={{
-        display: 'flex',
-        justifyContent: 'center'
-      }}
-    >
-      <p style={{ marginBottom: '2rem', color: '#888', fontSize: '1.5rem' }}>
-        For further assistance, please contact us via:
-      </p>
-      <a href="mailto:jim507735@gmail.com" style={{ display: 'flex', justifyContent: 'flex-start', alignItems: 'center', gap: '1rem', fontSize: '1.5rem', marginLeft: '1rem' }}>
-        jim507735@gmail.com
-        <img src="/assets/right-arrow.svg" alt="Email" />
-      </a>
-    </div>
-
+  <section style={{ padding: '2rem 1rem', display: 'flex', flexDirection: 'column', alignItems: 'center' }} id="contact-section">
+    <h2 >Contact Us</h2>
+    <p >
+      For further assistance, please contact us via:
+    </p>
+    <a href="mailto:support@beart.ai" style={{
+      display: 'inline-block',
+      textAlign: 'center',
+      fontSize: '1rem',
+      color: 'white',
+      textDecoration: 'none',
+      padding: '0.5rem 1rem',
+      backgroundColor: 'blue',
+      borderRadius: '5px',
+      width: '200px'
+    }}>
+      support@beart.ai
+    </a>
   </section>
 );
 
 const Footer: React.FC = () => (
-  <footer style={{ padding: '2rem 0', textAlign: 'center', color: '#888' }}>
-    <p> @2024 Beart. All rights reserved.</p>
+  <footer style={{ padding: '1rem 0', textAlign: 'center', color: '#888', fontSize: '0.9rem' }}>
+    <p>&copy; 2024 Beart. All rights reserved.</p>
+    <p>
+      <Link to="/privacy/" style={{ color: '#888', textDecoration: 'none' }}>
+        Privacy Policy
+      </Link>
+    </p>
   </footer>
 );
 
@@ -143,14 +161,13 @@ const App: React.FC = () => {
       color: '#fff',
       minHeight: '100vh',
       fontFamily: 'Arial, sans-serif',
-      width: '100vw',
       overflowX: 'hidden',
-      overflowY: 'hidden', // Hide the vertical scrollbar
     }}>
       <Header />
-      <main style={{ maxWidth: '100%' }}>
+      <main>
         <HeroSection />
-        <ProjectsSection />
+        <ProjectsSection1 />
+        <ProjectsSection2 />
         <Separator />
         <AboutUsSection />
         <ContactSection />
